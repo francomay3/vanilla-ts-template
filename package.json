@@ -1,31 +1,36 @@
 {
-  "name": "vanilla-ts-template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack serve --open --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "eslint . --ext .ts,.tsx --fix",
-    "tsc": "tsc"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "description": "",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "eslint": "^8.57.0",
+    "css-loader": "^6.10.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
+    "eslint": "^8.57.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.6.0",
     "prettier": "^3.2.5",
+    "sass-loader": "^14.1.1",
+    "sass": "^1.71.1",
+    "style-loader": "^3.3.4",
     "ts-loader": "^9.5.1",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "^5.3.3",
-    "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.2"
-  }
+    "webpack-dev-server": "^5.0.2",
+    "webpack": "^5.90.3"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "vanilla-ts-template",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "lint": "eslint . --ext .ts,.tsx",
+    "start": "webpack serve --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "version": "1.0.0"
 }

@@ -1,0 +1,11 @@
+#counter-container {
+  display: flex;
+  gap: 1rem;
+  max-width: 600px;
+  margin-inline: auto;
+
+  > * {
+    flex: 1;
+    text-align: center;
+  }
+}

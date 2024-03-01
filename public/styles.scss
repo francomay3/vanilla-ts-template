@@ -1,9 +1,16 @@
-$font-stack: Arial, sans-serif;
-$primary-color: #333;
-$bg-color: #f0f0f0;
-
 * {
-  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+// all this is just example code to show how you can use SASS
+$font-stack: Arial, sans-serif;
+$primary-color: #8ab4f7;
+$bg-color: #202124;
+
+h1,
+h3,
+p {
+  text-align: center;
 }
 
 body {
