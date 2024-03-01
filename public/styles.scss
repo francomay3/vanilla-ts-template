@@ -1,0 +1,42 @@
+$font-stack: Arial, sans-serif;
+$primary-color: #333;
+$bg-color: #f0f0f0;
+
+* {
+  border: 1px solid red;
+}
+
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .nested-element {
+    color: lighten($primary-color, 20%);
+  }
+}
+
+@mixin transition($property: all, $duration: 0.3s, $timing: ease) {
+  transition: $property $duration $timing;
+}
+
+.button {
+  @include transition;
+  background-color: darken($primary-color, 10%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken($primary-color, 20%);
+  }
+}
