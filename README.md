@@ -1,4 +1,4 @@
-# Vanilla TypeScript Template
+# Essential WebPack + TypeScript + esLint starter template
 
 This is a simple starter template for building applications with TypeScript.
 
